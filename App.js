@@ -37,37 +37,37 @@ const App = () => {
   return (
     <View style={styles.screen}>
       <Button
-        title="Aumentar red"
+        title="Increase red"
         onPress={() =>
           dispatch({type: 'change_red', payload: INCREMENT_AMOUNT})
         }
       />
       <Button
-        title="Diminuir red"
+        title="Decrease red"
         onPress={() =>
           dispatch({type: 'change_red', payload: -INCREMENT_AMOUNT})
         }
       />
       <Button
-        title="Aumentar green"
+        title="Increase green"
         onPress={() =>
           dispatch({type: 'change_green', payload: INCREMENT_AMOUNT})
         }
       />
       <Button
-        title="Diminuir green"
+        title="Decrease green"
         onPress={() =>
           dispatch({type: 'change_green', payload: -INCREMENT_AMOUNT})
         }
       />
       <Button
-        title="Aumentar blue"
+        title="Increase blue"
         onPress={() =>
           dispatch({type: 'change_blue', payload: INCREMENT_AMOUNT})
         }
       />
       <Button
-        title="Diminuir blue"
+        title="Decrease blue"
         onPress={() =>
           dispatch({type: 'change_blue', payload: -INCREMENT_AMOUNT})
         }
